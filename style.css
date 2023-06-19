@@ -26,6 +26,13 @@ nav ul li a {
   padding: 10px;
 }
 
+nav ul li a:hover {
+  color: #fff;
+  background-color: #e53935;
+  transform: scale(1.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
 main {
   padding: 20px;
 }
@@ -111,4 +118,3 @@ footer {
   padding: 20px;
   border-top: 1px solid #fff;
 }
-
